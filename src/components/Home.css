@@ -1,0 +1,51 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the left */
+  text-align: left;
+  min-height: 80vh; /* Make it take up most of the screen height */
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.home-name {
+  color: #38bdf8; /* Sky blue */
+}
+
+.home-subtitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #9ca3af; /* Gray */
+  margin-top: 1rem;
+}
+
+.home-description {
+  font-size: 1.125rem;
+  color: #d1d5db; /* Light gray */
+  margin-top: 2rem;
+  max-width: 600px; /* Limit line length for readability */
+  line-height: 1.6;
+}
+
+.home-cta-button {
+  margin-top: 3rem;
+  background-color: #0ea5e9; /* Brighter sky blue */
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-cta-button:hover {
+  background-color: #0284c7; /* Darker blue on hover */
+  transform: scale(1.05);
+}

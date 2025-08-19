@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-// Import all the components
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -16,13 +15,14 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Home />
-        <About />
-        <Projects />
-        <Skills />
-        <Certifications />
-        <Contact />
+        <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="projects"><Projects /></section>
+        <section id="skills"><Skills /></section>
+        <section id="certifications"><Certifications /></section>
+        <section id="contact"><Contact /></section>
       </main>
+      {/* <Footer /> */}
     </div>
   );
 }

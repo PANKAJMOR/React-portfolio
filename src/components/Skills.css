@@ -1,0 +1,16 @@
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-item {
+  background-color: #374151; /* Gray background */
+  color: #e0f2fe;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+}
